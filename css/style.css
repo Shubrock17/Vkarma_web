@@ -1,0 +1,157 @@
+body {
+  font-family: sans-serif, Helvetica,arial;
+  margin:0%;
+}
+header{
+  height: 70px;
+}
+.back{
+  background-image: url(../images/img.jpg);
+  background-repeat: no-repeat;
+  width:100vw;
+  height:100vh;
+  background-size:100% 100%;
+  position: relative;
+}
+.navbar {
+  overflow: hidden;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.text{
+  float:left;
+  display: inline-block;
+  margin-right: 45%;
+  font-weight: bold;
+  color:#e66314;
+  font-family: algerian;
+  font-size:130%;
+  line-height:auto;
+}
+.navbar a {
+  float: left;
+  font-size: 100%;
+  color: white;
+  text-align: center;
+  padding: 2% 2%;
+  text-decoration: none;
+  line-height:auto;
+  transition: all 0.5s linear;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 100%;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15% 1%;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  line-height: 17px;
+  padding-top: 29px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: -1%;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar a:focus {
+  background-color: red;
+}
+.dropdown:focus .dropdown-content {
+  display: block;
+}
+img{
+  float:left;
+  padding:10px;
+  height: 50px;
+  text-align: center;
+  max-height: 100%;
+  max-width: 100%;
+  margin-right:15px;
+}
+.image{
+  float: both;
+   max-height: 100%;
+  max-width: 100%;
+
+}
+footer{
+background-image: linear-gradient(141deg, #707573 0%, #2dc2d3 51%, #32cd93 75%);
+  height: 150px;
+}
+.social{
+  padding-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a{
+  height: 50px;
+  width: 50px;
+
+  text-align: center;
+  margin:10px;
+  
+}
+footer a i{
+  font-size: 200%;
+  transition: all 0.3s linear;
+}
+footer a:hover i{
+  font-size: 250%;
+}
+footer a:active{
+  color:red;
+}
+#foot{
+  text-align: center;
+  text-decoration: none;
+  padding-left:45%;
+  color:blue;
+  font-family:  "Lucida Console", Courier, monospace;
+  font-size: 100%;
+}
+#foot1{
+   text-align: center;
+  text-decoration: none;
+  padding-left:45%;
+  color:blue;
+  font-family:  "Lucida Console", Courier, monospace;
+  font-size: 100%;
+}
+.foot2{
+  text-align: center;
+}
